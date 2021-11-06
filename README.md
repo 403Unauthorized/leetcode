@@ -2,9 +2,9 @@
 
 ## Daily Problems
 
-| Title | Difficulty | Category | Finished |
-|----|----|----|----|
-|[268.消失的数字](https://leetcode-cn.com/problems/missing-number/)| Easy | Array, Bitwise Operation | :heavy_check_mark: |
+| Date | Title | Difficulty | Category | Finished | Solution |
+|------|-------|------------|----------|----------|----------|
+|2021/11/06|[268.消失的数字](https://leetcode-cn.com/problems/missing-number/)| Easy | Array, Bitwise Operation | :heavy_check_mark: | [Solution](./missing-number.py) |
 
 ## Leetcode Roadmap
 
