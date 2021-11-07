@@ -4,7 +4,8 @@
 
 | Date | Title | Difficulty | Category | Finished | Solution |
 |------|-------|------------|----------|----------|----------|
-|2021/11/06|[268.消失的数字](https://leetcode-cn.com/problems/missing-number/)| Easy | Array, Bitwise Operation | :heavy_check_mark: | [Solution](./missing-number.py) |
+|2021/11/06|[268. 消失的数字](https://leetcode-cn.com/problems/missing-number/)| Easy | Array, Bitwise Operation | :heavy_check_mark: | [Solution](./missing-number.py) |
+|2021/11/07|[598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)| Easy | Array | :heavy_check_mark: | [Solution](./range-addition-2.py) |
 
 ## Leetcode Roadmap
 
