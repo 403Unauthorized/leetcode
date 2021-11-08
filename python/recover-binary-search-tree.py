@@ -1,6 +1,6 @@
 # 99. 恢复二叉搜索树 - Medium
+# https://leetcode-cn.com/problems/recover-binary-search-tree/
 from typing import Optional
-
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

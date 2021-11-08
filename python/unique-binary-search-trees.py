@@ -1,4 +1,5 @@
 # 96. 不同的二叉搜索树 - Medium
+# https://leetcode-cn.com/problems/unique-binary-search-trees/
 # 思路：
 #   从1到n遍历每一个数字在根结点
 #   F(i, n) = G(i - 1) * G(n - i)

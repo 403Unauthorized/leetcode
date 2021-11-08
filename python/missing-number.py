@@ -1,4 +1,5 @@
-# 268. 消失的数字 - Easy
+# 268. 丢失的数字 - Easy
+# https://leetcode-cn.com/problems/missing-number/
 
 from typing import List
 class Solution:

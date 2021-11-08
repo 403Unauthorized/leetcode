@@ -1,4 +1,5 @@
 # 598. 范围求和 2 - Easy
+# https://leetcode-cn.com/problems/range-addition-ii/
 
 from typing import List
 
