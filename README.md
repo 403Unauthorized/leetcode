@@ -6,7 +6,7 @@
 |------|-------|------------|----------|----------|----------|
 |2021/11/06|[268. 消失的数字](https://leetcode-cn.com/problems/missing-number/)| Easy | 数组, 位运算 | :heavy_check_mark: | [Solution](./python/missing-number.py) |
 |2021/11/07|[598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)| Easy | 数组 | :heavy_check_mark: | [Solution](./python/range-addition-2.py) |
-|[299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/)| Medium | 数组 | :heavy_check_mark: | [Solution(Python)](./python/bulls-and-cows.py),[Solution(Go)](./go/bulls-and-cows.py) |
+| 2021/11/08 |[299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/)| Medium | 数组 | :heavy_check_mark: | [Solution(Python)](./python/bulls-and-cows.py),[Solution(Go)](./go/bulls-and-cows.py) |
 
 ## Leetcode Roadmap
 
