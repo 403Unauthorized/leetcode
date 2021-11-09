@@ -12,13 +12,13 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 		if pLeft > pRight {
 			return nil
 		}
-		root := &TreeNode{Val: preorder[pLeft], Left: nil, Right: nil}
+		root := &TreeNode{preorder[pLeft], nil, nil}
 		rootIdx := index[preorder[pLeft]]
-		var leftSize int = rootIdx - iLeft
-		root.Left := buildHelper(pLeft + 1, pLeft + leftSize, iLeft, rootIdx - 1)
-		root.Right := buildHelper(pLeft + leftSize + 1, pRight, rootIdx + 1, iRight)
+		leftSize := rootIdx - iLeft
+		root.Left = buildHelper(pLeft+1, pLeft+leftSize, iLeft, rootIdx-1)
+		root.Right = buildHelper(pLeft+leftSize+1, pRight, rootIdx+1, iRight)
 		return root
 	}
-	
+
 	return buildHelper(0, len(preorder)-1, 0, len(inorder)-1)
 }
