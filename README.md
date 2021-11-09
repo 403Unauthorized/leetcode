@@ -17,3 +17,4 @@
 |[105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| Medium | 二叉树, 中序遍历, 前序遍历 | :heavy_check_mark: | [Solution(Python)](./python/construct-binary-tree-from-preorder-and-inorder-traversal.py), [Solution(Go)](./go/construct-binary-tree-from-preorder-and-inorder-traversal.go) |
 |[99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)| Medium | 二叉树, 中序遍历 | :heavy_check_mark: | [Solution](./python/recover-binary-search-tree.py) |
 |[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| Medium | 二叉搜索树 | :heavy_check_mark: | [Solution](./python/unique-binary-search-trees.py) |
+|[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| Easy | 二叉树 | :heavy_check_mark: | [Solution(Python)](./python/maximum-depth-of-binary-tree.py), [Solution(Go)](./python/maximum-depth-of-binary-tree.go) |
