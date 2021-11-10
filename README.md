@@ -1,5 +1,7 @@
 # Dedicated to leetcode (Python)
 
+> 当中的解法可能不是最优解，就当作是找做题的感觉。
+
 ## Daily Problems
 
 | Date | Title | Difficulty | Category | Finished | Solution |
