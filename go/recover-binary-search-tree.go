@@ -13,43 +13,43 @@ func recoverTree(root *TreeNode) {
 		nodes = append(nodes, node.Val)
 		inorder(node.Right)
 	}
+	inorder(root)
 	n1, n2 := findWrongNode(nodes)
-	revert(root, n1, n2)
+	revert(root, 2, n1, n2)
 }
 
 func findWrongNode(nodes []int) (int, int) {
-	nums := make([]int, 0)
-	for i, v := range nodes {
-		if i == 0 {
-			if v > nodes[i+1] {
-				nums = append(nums, v)
+	index1, index2 := -1, -1
+	for i := 0; i < len(nodes)-1; i++ {
+		if nodes[i+1] < nodes[i] {
+			index2 = i + 1
+			if index1 == -1 {
+				index1 = i
+			} else {
+				break
 			}
-			continue
-		}
-		if i == len(nodes)-1 {
-			if v < nodes[i-1] {
-				nums = append(nums, v)
-			}
-		}
-		if v >= nodes[i-1] || v <= nodes[i+1] {
-			continue
-		} else {
-			nums = append(nums, v)
 		}
 	}
-	return nums[0], nums[1]
+	n1, n2 := nodes[index1], nodes[index2]
+	return n1, n2
 }
 
-func revert(node *TreeNode, n1 int, n2 int) {
+func revert(node *TreeNode, count int, n1 int, n2 int) {
 	if node == nil {
 		return
 	}
-	if node.Val == n1 {
-		node.Val = n2
+	if node.Val == n1 || node.Val == n2 {
+		if node.Val == n1 {
+			node.Val = n2
+		} else {
+			node.Val = n1
+		}
+		count--
+		if count == 0 {
+			return
+		}
 	}
-	if node.Val == n2 {
-		node.Val = n1
-	}
-	revert(node.Left, n1, n2)
-	revert(node.Right, n1, n2)
+
+	revert(node.Left, count, n1, n2)
+	revert(node.Right, count, n1, n2)
 }

@@ -16,7 +16,7 @@
 |-------|------------|----------|----------|----------|
 |[124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)| Hard | 二叉树, 后序遍历 | TODO |  |
 |[105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| Medium | 二叉树, 中序遍历, 前序遍历 | :heavy_check_mark: | [Solution(Python)](./python/construct-binary-tree-from-preorder-and-inorder-traversal.py), [Solution(Go)](./go/construct-binary-tree-from-preorder-and-inorder-traversal.go) |
-|[99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)| Medium | 二叉树, 中序遍历 | :heavy_check_mark: | [Solution](./python/recover-binary-search-tree.py) |
+|[99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)| Medium | 二叉树, 中序遍历 | :heavy_check_mark: | [Solution(Python)](./python/recover-binary-search-tree.py), [Solution(Go)](./go/recover-binary-search-tree.go) |
 |[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| Medium | 二叉搜索树 | :heavy_check_mark: | [Solution](./python/unique-binary-search-trees.py) |
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| Easy | 二叉树 | :heavy_check_mark: | [Solution(Python)](./python/maximum-depth-of-binary-tree.py), [Solution(Go)](./go/maximum-depth-of-binary-tree.go) |
 
@@ -25,3 +25,4 @@
 |-------|------------|----------|----------|----------|
 |[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer001.py) |
 |[剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)| Easy | 位运算, 数学, 字符串 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer002.py) |
+|[剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/)| Easy | 位运算, 数学, 递归 | :heavy_check_mark: | [Solution(Go)](./point-to-offer/offer003.go) |

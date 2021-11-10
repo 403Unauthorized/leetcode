@@ -1,4 +1,4 @@
-# 剑指 Offer II 002. 二进制加法
+# 剑指 Offer II 002. 二进制加法 - easy
 # https://leetcode-cn.com/problems/JFETK5/
 # https://leetcode-cn.com/problems/add-binary/
 import math

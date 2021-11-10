@@ -13,3 +13,5 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
+        stack = []
+        
