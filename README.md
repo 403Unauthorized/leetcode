@@ -22,7 +22,7 @@
 |[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| Medium | 二叉搜索树 | :heavy_check_mark: | [Solution](./python/unique-binary-search-trees.py) |
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| Easy | 二叉树 | :heavy_check_mark: | [Solution(Python)](./python/maximum-depth-of-binary-tree.py), [Solution(Go)](./go/maximum-depth-of-binary-tree.go) |
 
-### 剑指Offer
+### 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
 |-------|------------|----------|----------|----------|
 |[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer001.py) |
