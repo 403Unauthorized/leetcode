@@ -23,5 +23,5 @@
 ### 剑指Offer
 | Title | Difficulty | Category | Finished | Solution |
 |-------|------------|----------|----------|----------|
-|[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)(./point-to-offer/offer001.py)] |
-|[剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)| Easy | 位运算, 数学, 字符串 | :heavy_check_mark: | [Solution(Python)(./point-to-offer/offer002.py)] |
+|[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer001.py)] |
+|[剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)| Easy | 位运算, 数学, 字符串 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer002.py)] |
