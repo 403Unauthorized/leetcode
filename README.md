@@ -11,7 +11,7 @@
 |2021/11/08|[299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/)| Medium | 数组 | :heavy_check_mark: | [Solution(Python)](./python/bulls-and-cows.py), [Solution(Go)](./go/bulls-and-cows.go) |
 |2021/11/09|[488. 祖玛游戏](https://leetcode-cn.com/problems/zuma-game/)| Hard |  | TODO | [Solution(Python)](./python/zuma-game.py), [Solution(Go)](./go/zuma-game.go) |
 |2021/11/10| [495. 提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/) | Easy | 数组 | :heavy_check_mark: | [Solution(Python)](./python/teemo-attacking.py) |
-|2021/11/11|[629. K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array/)| Hard | 动态规划, 数组 | TODO | [Solution(Python)](./python/k-inverse-pairs-array.py) |
+|2021/11/11|[629. K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array/)| Hard | 动态规划, 数组 | :heavy_check_mark: | [Solution(Python)](./python/k-inverse-pairs-array.py) |
 
 # Leetcode Roadmap
 
