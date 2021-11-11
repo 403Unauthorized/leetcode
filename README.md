@@ -11,6 +11,7 @@
 |2021/11/08|[299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/)| Medium | 数组 | :heavy_check_mark: | [Solution(Python)](./python/bulls-and-cows.py), [Solution(Go)](./go/bulls-and-cows.go) |
 |2021/11/09|[488. 祖玛游戏](https://leetcode-cn.com/problems/zuma-game/)| Hard |  | TODO | [Solution(Python)](./python/zuma-game.py), [Solution(Go)](./go/zuma-game.go) |
 |2021/11/10| [495. 提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/) | Easy | 数组 | :heavy_check_mark: | [Solution(Python)](./python/teemo-attacking.py) |
+|2021/11/11|[629. K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array/)| Hard | 动态规划, 数组 | TODO | [Solution(Python)](./python/k-inverse-pairs-array.py) |
 
 ## Leetcode Roadmap
 
@@ -28,3 +29,9 @@
 |[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer001.py) |
 |[剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)| Easy | 位运算, 数学, 字符串 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer002.py) |
 |[剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/)| Easy | 位运算, 数学, 递归 | :heavy_check_mark: | [Solution(Go)](./point-to-offer/offer003.go) |
+
+
+### 629. K个逆序对数组（题解）
+
+该题为典型的序列DP类型的题。
+假设 $dp[i][j]$ 为考虑了 $[1, i]$ 前 $i$ 个数字，逆序对为 $j$ 的方案数
