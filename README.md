@@ -34,4 +34,4 @@
 ### 629. K个逆序对数组（题解）
 
 该题为典型的序列DP类型的题。
-假设 $dp[i][j]$ 为考虑了 $[1, i]$ 前 $i$ 个数字，逆序对为 $j$ 的方案数
+假设 <img src="https://render.githubusercontent.com/render/math?math=dp[i][j]"> 为考虑了 <img src="https://render.githubusercontent.com/render/math?math=[1, i]"> 前 i 个数字，逆序对为 j 的方案数
