@@ -14,6 +14,7 @@
 |2021/11/11|[629. K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array/)| Hard | 序列DP, 数组 | :heavy_check_mark: | [Solution(Python)](./python/k-inverse-pairs-array.py) |
 |2021/11/12|[375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Go)](./go/guess-number-higher-or-lower-ii.go), [Solution(Python)](/python/guess-number-higher-or-lower-ii.py) |
 |2021/11/13| [520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Go)](./go/detect-capital.go) |
+|2021/11/14| [319. 灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/) | Medium | 数学 | :heavy_check_mark: | [Solution(Java)](./java/bulb-switcher.java) |
 
 # Leetcode Roadmap
 
