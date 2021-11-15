@@ -27,6 +27,7 @@
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| Easy | 二叉树 | :heavy_check_mark: | [Solution(Python)](./python/maximum-depth-of-binary-tree.py), [Solution(Go)](./go/maximum-depth-of-binary-tree.go) |
 |[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| Medium | 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/longest-substring-without-repeating-characters.java), [Solution(Go)](./go/longest-substring-without-repeating-characters.go), [Solution(Python)](./python/longest-substring-without-repeating-characters.py) |
 |[11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)| Medium | 数组, 双指针 | :heavy_check_mark: | [Solution(Java)](./java/container-with-most-water.java), [Solution(Go)](./go/container-with-most-water.go), [Solution(Python)](./python/container-with-most-water.py) |
+|[551. 学生出勤记录 I](https://leetcode-cn.com/problems/student-attendance-record-i/)| Easy | 数据结构，字符串 | :heavy_check_mark: | [Solution(Java)](./java/student-attendance-record-i.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
