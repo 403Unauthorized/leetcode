@@ -14,6 +14,7 @@
 |2021/11/11|[629. K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array/)| Hard | 序列DP, 数组 | :heavy_check_mark: | [Solution(Python)](./python/k-inverse-pairs-array.py) |
 |2021/11/12|[375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Go)](./go/guess-number-higher-or-lower-ii.go), [Solution(Python)](/python/guess-number-higher-or-lower-ii.py) |
 |2021/11/13| [520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Go)](./go/detect-capital.go) |
+|2021/11/13| [677. 键值映射](https://leetcode-cn.com/problems/map-sum-pairs/) | Medium | 数据结构 | :heavy_check_mark: | [Solution(Java)](./java/map-sum-pairs.java) |
 
 # Leetcode Roadmap
 
@@ -24,6 +25,9 @@
 |[99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)| Medium | 二叉树, 中序遍历 | :heavy_check_mark: | [Solution(Python)](./python/recover-binary-search-tree.py), [Solution(Go)](./go/recover-binary-search-tree.go) |
 |[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| Medium | 二叉搜索树 | :heavy_check_mark: | [Solution](./python/unique-binary-search-trees.py) |
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| Easy | 二叉树 | :heavy_check_mark: | [Solution(Python)](./python/maximum-depth-of-binary-tree.py), [Solution(Go)](./go/maximum-depth-of-binary-tree.go) |
+| [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | Medium | 动态规划| :heavy_check_mark: | [Solution(Go)](./go/coin-change.go) |
+| [46. 全排列](https://leetcode-cn.com/problems/permutations/) | Medium | 动态规划| :heavy_check_mark: | [Solution(Java)](./java/permutations.java) |
+| [51. N 皇后](https://leetcode-cn.com/problems/n-queens/) | Hard | 回溯 | :heavy_check_mark: | [Solution(Python)](./python/n-queens.py), [Solution(Java)](./java/n-queens.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
