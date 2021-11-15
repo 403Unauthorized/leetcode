@@ -15,6 +15,7 @@
 |2021/11/12|[375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Go)](./go/guess-number-higher-or-lower-ii.go), [Solution(Python)](/python/guess-number-higher-or-lower-ii.py) |
 |2021/11/13| [520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Go)](./go/detect-capital.go) |
 |2021/11/13| [677. 键值映射](https://leetcode-cn.com/problems/map-sum-pairs/) | Medium | 数据结构 | :heavy_check_mark: | [Solution(Java)](./java/map-sum-pairs.java) |
+|2021/11/14| [319. 灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/) | Medium | 数学 | :heavy_check_mark: | [Solution(Java)](./java/bulb-switcher.java) |
 
 # Leetcode Roadmap
 
@@ -28,6 +29,9 @@
 | [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | Medium | 动态规划| :heavy_check_mark: | [Solution(Go)](./go/coin-change.go) |
 | [46. 全排列](https://leetcode-cn.com/problems/permutations/) | Medium | 动态规划| :heavy_check_mark: | [Solution(Java)](./java/permutations.java) |
 | [51. N 皇后](https://leetcode-cn.com/problems/n-queens/) | Hard | 回溯 | :heavy_check_mark: | [Solution(Python)](./python/n-queens.py), [Solution(Java)](./java/n-queens.java) |
+|[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| Medium | 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/longest-substring-without-repeating-characters.java), [Solution(Go)](./go/longest-substring-without-repeating-characters.go), [Solution(Python)](./python/longest-substring-without-repeating-characters.py) |
+|[11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)| Medium | 数组, 双指针 | :heavy_check_mark: | [Solution(Java)](./java/container-with-most-water.java), [Solution(Go)](./go/container-with-most-water.go), [Solution(Python)](./python/container-with-most-water.py) |
+|[551. 学生出勤记录 I](https://leetcode-cn.com/problems/student-attendance-record-i/)| Easy | 数据结构，字符串 | :heavy_check_mark: | [Solution(Java)](./java/student-attendance-record-i.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
@@ -40,5 +44,19 @@
 
 ## 629. K个逆序对数组（题解）
 
-该题为典型的序列DP类型的题。
+> Hard难度，该题为典型的序列DP类型的题
+
 假设 `dp[i][j]` 为考虑了 `[1, i]` 前 `i` 个数字，逆序对为 `j` 的方案数
+
+
+## 3. 无重复字符的最长子（题解）
+
+> Medium 难度，使用滑动窗口可以解决
+
+字符串的字母从左往右一个一个包括进滑动窗口，并将每个字符和其索引用Map存放起来。使用 `left` 字段记录窗口最左端。
+
+当遇到了之前遇到过的字符，即遇到重复字符，则将此时的长度与前一次滑动窗口长度比较取大的值（ans = max(ans, i - left + 1)），并且将left索引设置为当前这次重复的字符的索引 + 1，并将该字符的索引替换成重复字符的索引（较大索引）。
+
+知道循环结束，返回 ans 为最大不重复子串长度。
+
+
