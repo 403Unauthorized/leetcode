@@ -25,6 +25,7 @@
 |[99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)| Medium | 二叉树, 中序遍历 | :heavy_check_mark: | [Solution(Python)](./python/recover-binary-search-tree.py), [Solution(Go)](./go/recover-binary-search-tree.go) |
 |[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| Medium | 二叉搜索树 | :heavy_check_mark: | [Solution](./python/unique-binary-search-trees.py) |
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| Easy | 二叉树 | :heavy_check_mark: | [Solution(Python)](./python/maximum-depth-of-binary-tree.py), [Solution(Go)](./go/maximum-depth-of-binary-tree.go) |
+|[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| Medium | 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/longest-substring-without-repeating-characters.java), [Solution(Go)](./go/longest-substring-without-repeating-characters.go), [Solution(Python)](./python/longest-substring-without-repeating-characters.py) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
