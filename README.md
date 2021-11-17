@@ -38,6 +38,8 @@
 |[983. 最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets/)| Medium | 动态规划（与零钱兑换相似） | :heavy_check_mark: | [Solution(Java)](./java/minimum-cost-for-tickets.java) |
 |[55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/jump-game.java), [Solution(Python)](./python/jump-game.py) |
 |[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/unique-paths.java) |
+|[63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/unique-paths-ii.java) |
+|[279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/perfect-squares.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
