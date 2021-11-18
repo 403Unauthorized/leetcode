@@ -48,6 +48,7 @@
 |[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/house-robber.java) |
 |[213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/house-robber-ii.java) |
 |[221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximal-square.java) |
+|[152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximum-product-subarray.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
