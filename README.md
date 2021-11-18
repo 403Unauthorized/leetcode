@@ -28,7 +28,7 @@
 |[124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)| Hard | 二叉树, 后序遍历 | TODO |  |
 |[105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| Medium | 二叉树, 中序遍历, 前序遍历 | :heavy_check_mark: | [Solution(Python)](./python/construct-binary-tree-from-preorder-and-inorder-traversal.py), [Solution(Go)](./go/construct-binary-tree-from-preorder-and-inorder-traversal.go) |
 |[99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)| Medium | 二叉树, 中序遍历 | :heavy_check_mark: | [Solution(Python)](./python/recover-binary-search-tree.py), [Solution(Go)](./go/recover-binary-search-tree.go) |
-|[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| Medium | 二叉搜索树 | :heavy_check_mark: | [Solution](./python/unique-binary-search-trees.py) |
+|[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| Medium | 二叉搜索树 | :heavy_check_mark: | [Solution](./python/unique-binary-search-trees.py), [Solution(Java)](./java/unique-binary-search-trees.java) |
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| Easy | 二叉树 | :heavy_check_mark: | [Solution(Python)](./python/maximum-depth-of-binary-tree.py), [Solution(Go)](./go/maximum-depth-of-binary-tree.go) |
 | [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | Medium | 动态规划| :heavy_check_mark: | [Solution(Go)](./go/coin-change.go) |
 | [46. 全排列](https://leetcode-cn.com/problems/permutations/) | Medium | 动态规划| :heavy_check_mark: | [Solution(Java)](./java/permutations.java) |
@@ -44,6 +44,10 @@
 |[121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| Easy | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/sell-stock.java) |
 |[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/sell-stock-ii.java) |
 |[123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)| Hard | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/sell-stock-iii.java), [Solution(Python)](./python/sell-stock-iii.py) |
+|[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| Medium | DFS | :heavy_check_mark: | [Solution(Java)](./java/generate-parentheses.java) |
+|[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/house-robber.java) |
+|[213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/house-robber-ii.java) |
+|[221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximal-square.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
