@@ -36,6 +36,11 @@
 |[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| Medium | 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/longest-substring-without-repeating-characters.java), [Solution(Go)](./go/longest-substring-without-repeating-characters.go), [Solution(Python)](./python/longest-substring-without-repeating-characters.py) |
 |[11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)| Medium | 数组, 双指针 | :heavy_check_mark: | [Solution(Java)](./java/container-with-most-water.java), [Solution(Go)](./go/container-with-most-water.go), [Solution(Python)](./python/container-with-most-water.py) |
 |[551. 学生出勤记录 I](https://leetcode-cn.com/problems/student-attendance-record-i/)| Easy | 数据结构，字符串 | :heavy_check_mark: | [Solution(Java)](./java/student-attendance-record-i.java) |
+|[983. 最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets/)| Medium | 动态规划（与零钱兑换相似） | :heavy_check_mark: | [Solution(Java)](./java/minimum-cost-for-tickets.java) |
+|[55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/jump-game.java), [Solution(Python)](./python/jump-game.py) |
+|[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/unique-paths.java) |
+|[63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/unique-paths-ii.java) |
+|[279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/perfect-squares.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
@@ -62,5 +67,11 @@
 当遇到了之前遇到过的字符，即遇到重复字符，则将此时的长度与前一次滑动窗口长度比较取大的值（ans = max(ans, i - left + 1)），并且将left索引设置为当前这次重复的字符的索引 + 1，并将该字符的索引替换成重复字符的索引（较大索引）。
 
 知道循环结束，返回 ans 为最大不重复子串长度。
+
+## 983. 最低票价（题解）
+
+> Medium 难度，稍微有一些变化的动态规划
+
+这道题需要我们变换一下动态规划的思路，从后往前做动态规划。
 
 
