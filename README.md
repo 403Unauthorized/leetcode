@@ -78,3 +78,30 @@
 这道题需要我们变换一下动态规划的思路，从后往前做动态规划。
 
 
+## 123. 买卖股票的最佳时机 III（题解）
+
+> Hard 难度，稍微比较难想出状态转移方程。如果找到状态转移方程，则很容易解决。
+
+因为这道题限制我们最多交易两次，所以我们创建四个变量（buy1, sell1, buy2, sell2）分别代表（第一回购买股票时的最大收益，第一回卖出股票时的最大收益，第二回购买股票时的最大收益，第二回卖出股票时的最大收益）。这时候就要找出这四个变量之间的关系以及4各变量间的状态是如何转移的（这部分应该算是比较难的部分了）。
+
+从字面意思上可以看出，sell2 = max(sell2, buy2 + 当前售卖天的股票价格), buy2 = (buy2, 第一回售卖股票的最大收益 - 当前售卖天的股票价格), sell1 = max(sell1, buy1 + 当前售卖天的股票价格), buy1 = max(buy1, 0-当前售卖天的股票价格)
+
+也就是说我们需要找出第一次买卖股票的最大收益和第二次买卖股票的最大收益。
+
+假设第一天购入股票，我们可以初始化四个变量的初始状态：buy1 = -prices[0] (因为第一次购入，收益会是负数), sell1 = 0(还没有卖出过股票，所以卖出时收益初始化为0), buy2 = -prices[0] (和buy1解释一样，因为有可能只有一次交易), sell2 = 0。
+
+根据以上的分析，我们就能写出对应的代码了：
+
+```java
+public int maxProfit(int[] prices) {
+    int buy1 = -prices[0], sell1 = 0;
+    int buy2 = -prices[0], sell2 = 0;
+    for (int i = 1; i < prices.length; i++) {
+        buy1 = Math.max(buy1, -prices[i]);
+        sell1 = Math.max(sell1, buy1 + prices[i]);
+        buy2 = Math.max(buy2, sell1 - prices[i]);
+        sell2 = Math.max(sell2, buy2 + prices[i]);
+    }
+    return sell2;
+}
+```
