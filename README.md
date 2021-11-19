@@ -20,6 +20,7 @@
 |2021/11/16| [391. 完美矩形](https://leetcode-cn.com/problems/perfect-rectangle/) | Hard |  | TODO |  |
 |2021/11/17| [318. 最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) | Medium |  位运算 | :heavy_check_mark: | [Solution(Java)](./java/maximum-product-of-word-lengths.java), [Solution(Python)](./python/maximum-product-of-word-lengths.py) |
 |2021/11/18| [563. 二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/) | Easy |  二叉树, 后序遍历 | :heavy_check_mark: | [Solution(Java)](./java/binary-tree-tilt.java), [Solution(Go)](./go/binary-tree-tilt.go), [Solution(Python)](./python/binary-tree-tilt.py) |
+|2021/11/19| [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) | Medium |  DFS,动态规划 | :heavy_check_mark: | [Solution(Java)](./java/integer-replacement.java), [Solution(Go)](./go/integer-replacement.go) |
 
 # Leetcode Roadmap
 
@@ -49,6 +50,9 @@
 |[213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/house-robber-ii.java) |
 |[221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximal-square.java) |
 |[152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximum-product-subarray.java) |
+|[5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)| Medium | 动态规划, 暴力搜索 | :heavy_check_mark: | [Solution(Java)](./java/longest-palindromic-substring.java) |
+|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| Easy | 递归 | :heavy_check_mark: | [Solution(Go)](./go/reverse-linked-list.go) |
+|[92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| Medium | 递归 | :heavy_check_mark: | [Solution(Java)](./java/reverse-linked-list-ii.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
@@ -56,6 +60,7 @@
 |[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer001.py) |
 |[剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)| Easy | 位运算, 数学, 字符串 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer002.py) |
 |[剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/)| Easy | 位运算, 数学, 递归 | :heavy_check_mark: | [Solution(Go)](./point-to-offer/offer003.go) |
+|[剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)| Easy | 栈, 数组 | :heavy_check_mark: | [Solution(Go)](./point-to-offer/offer-i-030.go) |
 
 # 题解
 
