@@ -21,6 +21,7 @@
 |2021/11/17| [318. 最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) | Medium |  位运算 | :heavy_check_mark: | [Solution(Java)](./java/maximum-product-of-word-lengths.java), [Solution(Python)](./python/maximum-product-of-word-lengths.py) |
 |2021/11/18| [563. 二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/) | Easy |  二叉树, 后序遍历 | :heavy_check_mark: | [Solution(Java)](./java/binary-tree-tilt.java), [Solution(Go)](./go/binary-tree-tilt.go), [Solution(Python)](./python/binary-tree-tilt.py) |
 |2021/11/19| [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) | Medium |  DFS,动态规划 | :heavy_check_mark: | [Solution(Java)](./java/integer-replacement.java), [Solution(Go)](./go/integer-replacement.go) |
+|2021/11/20| [594. 最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | Easy |  枚举, Hash表 | :heavy_check_mark: | [Solution(Java)](./java/longest-harmonious-subsequence.java) |
 
 # Leetcode Roadmap
 
