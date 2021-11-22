@@ -22,6 +22,9 @@
 |2021/11/18| [563. 二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/) | Easy |  二叉树, 后序遍历 | :heavy_check_mark: | [Solution(Java)](./java/binary-tree-tilt.java), [Solution(Go)](./go/binary-tree-tilt.go), [Solution(Python)](./python/binary-tree-tilt.py) |
 |2021/11/19| [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) | Medium |  DFS,动态规划 | :heavy_check_mark: | [Solution(Java)](./java/integer-replacement.java), [Solution(Go)](./go/integer-replacement.go) |
 |2021/11/20| [594. 最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | Easy |  枚举, Hash表 | :heavy_check_mark: | [Solution(Java)](./java/longest-harmonious-subsequence.java) |
+|2021/11/21| [559. N 叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | Easy |  递归 | :heavy_check_mark: | [Solution(Java)](./java/maximum-depth-of-n-ary-tree.java) |
+|2021/11/22| [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |  Knuth算法 | :heavy_check_mark: | [Solution(Go)](./go/shuffle-an-array.go) |
+|2021/11/22| [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium |  BST, recursive | :heavy_check_mark: | [Solution(Java)](./java/delete-node-in-a-bst.java) |
 
 # Leetcode Roadmap
 
@@ -54,6 +57,7 @@
 |[5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)| Medium | 动态规划, 暴力搜索 | :heavy_check_mark: | [Solution(Java)](./java/longest-palindromic-substring.java) |
 |[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| Easy | 递归 | :heavy_check_mark: | [Solution(Go)](./go/reverse-linked-list.go) |
 |[92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| Medium | 递归 | :heavy_check_mark: | [Solution(Java)](./java/reverse-linked-list-ii.java) |
+|[1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/longest-arithmetic-subsequence-of-given-difference.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
@@ -114,5 +118,57 @@ public int maxProfit(int[] prices) {
         sell2 = Math.max(sell2, buy2 + prices[i]);
     }
     return sell2;
+}
+```
+
+## 450. Delete Node in a BST - Medium
+
+> 这道题是国外站的 2021/11/22 每日一题，中等难度，主要考察对二叉搜索树的熟悉程度
+
+从题解可以看出来这是一道二叉搜索树的题，针对树这类题，我们首先能想到的解法就是递归。
+
+当我们删除一个节点时，该怎么重构才能让其保持为二叉搜索树呢？这里可以列举出三种情况：
+
+- 需要删除的节点没有左子树但存在右子树：
+
+我们可以简单的将该节点替换为右节点。
+
+- 需要删除的节点没有右子树但存在左子树：
+简单的将该节点替换为左节点。
+
+- 需要删除的节点既存在左子树也存在右子树：
+
+如果左右子节点都存在的情况，咱们看一下下面这张图，大家应该都能找到规律：
+
+![Image1](./static/450_delete_node_from_bst.png)
+
+如果要删除上图中值为15的节点，则需要将它的右节点中的左子树中的最小值替换上来，这样我们就能保持一个完整的二叉搜索树。找到规律后，我们就可以写出来代码了：
+
+```java
+public TreeNode deleteNode(TreeNode root, int key) {
+    if (root == null) {
+        return root;
+    }
+    if (key < root.val) {
+        root.left = deleteNode(root.left, key);
+        return root;
+    }
+    if (key > root.val) {
+        root.right = deleteNode(root.right, key);
+        return root;
+    }
+    if (root.left == null) {
+        return root.right;
+    }
+    if (root.right == null) {
+        return root.left;
+    }
+    TreeNode min = root.right;
+    while (min.left != null) {
+        min = min.left;
+    }
+    root.val = min.val;
+    root.right = deleteNode(root.right, min.val);
+    return root;
 }
 ```
