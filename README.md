@@ -23,7 +23,7 @@
 |2021/11/19| [397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) | Medium |  DFS,动态规划 | :heavy_check_mark: | [Solution(Java)](./java/integer-replacement.java), [Solution(Go)](./go/integer-replacement.go) |
 |2021/11/20| [594. 最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | Easy |  枚举, Hash表 | :heavy_check_mark: | [Solution(Java)](./java/longest-harmonious-subsequence.java) |
 |2021/11/21| [559. N 叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | Easy |  递归 | :heavy_check_mark: | [Solution(Java)](./java/maximum-depth-of-n-ary-tree.java) |
-|2021/11/22| [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |  Knuth算法 | :heavy_check_mark: | [Solution(Go)](./go/shuffle-an-array.go) |
+|2021/11/22| [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |  Knuth算法, 洗牌算法 | :heavy_check_mark: | [Solution(Go)](./go/shuffle-an-array.go) |
 |2021/11/22| [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium |  BST, recursive | :heavy_check_mark: | [Solution(Java)](./java/delete-node-in-a-bst.java) |
 
 # Leetcode Roadmap
