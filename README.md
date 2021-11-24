@@ -25,6 +25,7 @@
 |2021/11/21| [559. N 叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | Easy |  递归 | :heavy_check_mark: | [Solution(Java)](./java/maximum-depth-of-n-ary-tree.java) |
 |2021/11/22| [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |  Knuth算法, 洗牌算法 | :heavy_check_mark: | [Solution(Go)](./go/shuffle-an-array.go) |
 |2021/11/22| [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium |  BST, recursive | :heavy_check_mark: | [Solution(Java)](./java/delete-node-in-a-bst.java) |
+|2021/11/23| [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/) | Easy |  字符串 | :heavy_check_mark: | [Solution(Go)](./go/buddy-strings.go) |
 
 # Leetcode Roadmap
 
@@ -62,10 +63,15 @@
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
 |-------|------------|----------|----------|----------|
-|[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer001.py) |
-|[剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)| Easy | 位运算, 数学, 字符串 | :heavy_check_mark: | [Solution(Python)](./point-to-offer/offer002.py) |
-|[剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/)| Easy | 位运算, 数学, 递归 | :heavy_check_mark: | [Solution(Go)](./point-to-offer/offer003.go) |
-|[剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)| Easy | 栈, 数组 | :heavy_check_mark: | [Solution(Go)](./point-to-offer/offer-i-030.go) |
+|[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/)| Easy | 位运算 | :heavy_check_mark: | [Solution(Python)](./point_to_offer/offer001.py) |
+|[剑指 Offer II 002. 二进制加法](https://leetcode-cn.com/problems/JFETK5/)| Easy | 位运算, 数学, 字符串 | :heavy_check_mark: | [Solution(Python)](./point_to_offer/offer002.py) |
+|[剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/)| Easy | 位运算, 数学, 递归 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer003.go) |
+|[剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)| Easy | 栈, 数组 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-i-030.go) |
+|[剑指 Offer II 004. 只出现一次的数字](https://leetcode-cn.com/problems/WGki4K/)| Medium | Hash表 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-ii-004.go) |
+|[剑指 Offer II 005. 单词长度的最大乘积](https://leetcode-cn.com/problems/aseY1I/)| Medium | 位运算 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-ii-005.go) |
+|[剑指 Offer II 006. 排序数组中两个数字之和](https://leetcode-cn.com/problems/kLl5u1/)| Easy | Hash表 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-ii-006.go) |
+|[剑指 Offer II 007. 数组中和为 0 的三个数](https://leetcode-cn.com/problems/1fGaJU/)| Medium | 双指针 | :heavy_check_mark: | [Solution(Python)](./point_to_offer/offer-ii-007.py) |
+|[剑指 Offer II 008. 和大于等于 target 的最短子数组](https://leetcode-cn.com/problems/2VG8Kg/)| Medium | 二分查找, 前缀和 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-008.java) |
 
 # 题解
 
@@ -76,7 +82,7 @@
 假设 `dp[i][j]` 为考虑了 `[1, i]` 前 `i` 个数字，逆序对为 `j` 的方案数
 
 
-## 3. 无重复字符的最长子（题解）
+## 3. 无重复字符的最长子串（题解）
 
 > Medium 难度，使用滑动窗口可以解决
 
