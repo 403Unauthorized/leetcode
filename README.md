@@ -26,6 +26,8 @@
 |2021/11/22| [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |  Knuth算法, 洗牌算法 | :heavy_check_mark: | [Solution(Go)](./go/shuffle-an-array.go) |
 |2021/11/22| [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium |  BST, recursive | :heavy_check_mark: | [Solution(Java)](./java/delete-node-in-a-bst.java) |
 |2021/11/23| [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/) | Easy |  字符串 | :heavy_check_mark: | [Solution(Go)](./go/buddy-strings.go) |
+|2021/11/24| [423. 从英文中重建数字](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |  矩阵 | :heavy_check_mark: | [Solution(Python)](./py/reconstruct-original-digits-from-english.py), [Solution(Java)](./java/reconstruct-original-digits-from-english.java) |
+|2021/11/25| [458. 可怜的小猪](https://leetcode-cn.com/problems/poor-pigs/) | Hard | 进制 | :heavy_check_mark: | [Solution(Go)](./go/poor-pigs.go), [Solution(Java)](./java/poor-pigs.java) |
 
 # Leetcode Roadmap
 
