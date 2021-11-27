@@ -71,7 +71,8 @@
 |[剑指 Offer II 005. 单词长度的最大乘积](https://leetcode-cn.com/problems/aseY1I/)| Medium | 位运算 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-ii-005.go) |
 |[剑指 Offer II 006. 排序数组中两个数字之和](https://leetcode-cn.com/problems/kLl5u1/)| Easy | Hash表 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-ii-006.go) |
 |[剑指 Offer II 007. 数组中和为 0 的三个数](https://leetcode-cn.com/problems/1fGaJU/)| Medium | 双指针 | :heavy_check_mark: | [Solution(Python)](./point_to_offer/offer-ii-007.py) |
-|[剑指 Offer II 008. 和大于等于 target 的最短子数组](https://leetcode-cn.com/problems/2VG8Kg/)| Medium | 二分查找, 前缀和 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-008.java) |
+|[剑指 Offer II 008. 和大于等于 target 的最短子数组](https://leetcode-cn.com/problems/2VG8Kg/)| Medium | 二分查找, 前缀和; 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-008.java) |
+|[剑指 Offer II 009. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/ZVAVXX/)| Medium | 滑动窗口 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-ii-009.go) |
 
 # 题解
 

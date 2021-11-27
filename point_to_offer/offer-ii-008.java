@@ -10,7 +10,7 @@ class Offer2_008 {
         int left = 0, total = 0;
         int ans = Integer.MAX_VALUE;
         for (int right = 0; right < nums.length; right++) {
-            total += right;
+            total += nums[right];
             while (total >= target) {
                 ans = Math.min(ans, right - left + 1);
                 total -= nums[left];
