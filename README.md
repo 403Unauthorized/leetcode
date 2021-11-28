@@ -29,6 +29,7 @@
 |2021/11/24| [423. 从英文中重建数字](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |  矩阵 | :heavy_check_mark: | [Solution(Python)](./py/reconstruct-original-digits-from-english.py), [Solution(Java)](./java/reconstruct-original-digits-from-english.java) |
 |2021/11/25| [458. 可怜的小猪](https://leetcode-cn.com/problems/poor-pigs/) | Hard | 进制 | :heavy_check_mark: | [Solution(Go)](./go/poor-pigs.go), [Solution(Java)](./java/poor-pigs.java) |
 |2021/11/26| [700. 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy | BST, 递归 | :heavy_check_mark: | [Solution(Python)](./python/search-in-a-binary-search-tree.py), [Solution(Java)](./java/search-in-a-binary-search-tree.java) |
+|2021/11/28| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Medium | 数组, 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/find-all-anagrams-in-a-string.java) |
 
 # Leetcode Roadmap
 
@@ -62,6 +63,8 @@
 |[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| Easy | 递归 | :heavy_check_mark: | [Solution(Go)](./go/reverse-linked-list.go) |
 |[92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| Medium | 递归 | :heavy_check_mark: | [Solution(Java)](./java/reverse-linked-list-ii.java) |
 |[1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/longest-arithmetic-subsequence-of-given-difference.java) |
+|[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)| Easy | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximum-subarray.java) |
+|[918. 环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/)| Easy | 最小子序和, 最大子序和 | :heavy_check_mark: | [Solution(Java)](./java/maximum-sum-circular-subarray.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
