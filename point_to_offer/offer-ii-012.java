@@ -14,7 +14,6 @@ class OfferII012 {
     public int pivotIndex(int[] nums) {
         int len = nums.length;
         int[] prefix = new int[len + 1];
-        prefix[0] = 0;
         for (int i = 0; i < len; i++) {
             prefix[i + 1] = nums[i] + prefix[i];
         }

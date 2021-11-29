@@ -83,6 +83,7 @@
 |[剑指 Offer II 010. 和为 k 的子数组](https://leetcode-cn.com/problems/QTMn0o/)| Medium | 前缀和+HashTable | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-010.java), [Solution(Go)](./point_to_offer/offer-ii-010.go) |
 |[剑指 Offer II 011. 0 和 1 个数相同的子数组](https://leetcode-cn.com/problems/A1NYOS/)| Medium | 前缀和+HashTable | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-011.java) |
 |[剑指 Offer II 012. 左右两边子数组的和相等](https://leetcode-cn.com/problems/tvdfij/)| Easy | 前缀和 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-012.java) |
+|[剑指 Offer II 013. 二维子矩阵的和](https://leetcode-cn.com/problems/O4NDxx/)| Medium | 二维数组前缀和 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-013.java) |
 |[剑指 Offer II 030. 插入、删除和随机访问都是 O(1) 的容器](https://leetcode-cn.com/problems/FortPu/)| Medium | 数据结构, Hash表, 链表 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-030.java) |
 
 
