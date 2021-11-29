@@ -30,6 +30,7 @@
 |2021/11/25| [458. 可怜的小猪](https://leetcode-cn.com/problems/poor-pigs/) | Hard | 进制 | :heavy_check_mark: | [Solution(Go)](./go/poor-pigs.go), [Solution(Java)](./java/poor-pigs.java) |
 |2021/11/26| [700. 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy | BST, 递归 | :heavy_check_mark: | [Solution(Python)](./python/search-in-a-binary-search-tree.py), [Solution(Java)](./java/search-in-a-binary-search-tree.java) |
 |2021/11/28| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Medium | 数组, 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/find-all-anagrams-in-a-string.java) |
+|2021/11/29| [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) | Hard | PriorityQueue | :heavy_check_mark: | [Solution(Java)](./java/k-th-smallest-prime-fraction.java) |
 
 # Leetcode Roadmap
 
@@ -79,6 +80,7 @@
 |[剑指 Offer II 007. 数组中和为 0 的三个数](https://leetcode-cn.com/problems/1fGaJU/)| Medium | 双指针 | :heavy_check_mark: | [Solution(Python)](./point_to_offer/offer-ii-007.py) |
 |[剑指 Offer II 008. 和大于等于 target 的最短子数组](https://leetcode-cn.com/problems/2VG8Kg/)| Medium | 二分查找, 前缀和; 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-008.java) |
 |[剑指 Offer II 009. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/ZVAVXX/)| Medium | 滑动窗口 | :heavy_check_mark: | [Solution(Go)](./point_to_offer/offer-ii-009.go) |
+|[剑指 Offer II 010. 和为 k 的子数组](https://leetcode-cn.com/problems/QTMn0o/)| Medium | 前缀和 | :heavy_check_mark: | [Solution(Java)](./point_to_offer/offer-ii-010.java), [Solution(Go)](./point_to_offer/offer-ii-010.go) |
 
 # 题解
 
