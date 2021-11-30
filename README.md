@@ -31,6 +31,7 @@
 |2021/11/26| [700. 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy | BST, 递归 | :heavy_check_mark: | [Solution(Python)](./python/search-in-a-binary-search-tree.py), [Solution(Java)](./java/search-in-a-binary-search-tree.java) |
 |2021/11/28| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Medium | 数组, 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/find-all-anagrams-in-a-string.java) |
 |2021/11/29| [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) | Hard | PriorityQueue | :heavy_check_mark: | [Solution(Java)](./java/k-th-smallest-prime-fraction.java) |
+|2021/11/30| [400. 第 N 位数字](https://leetcode-cn.com/problems/nth-digit/) | Medium | 字符串 | :heavy_check_mark: | [Solution(Java)](./java/nth-digit.java) |
 
 # Leetcode Roadmap
 
