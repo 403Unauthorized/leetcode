@@ -32,6 +32,7 @@
 |2021/11/28| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Medium | 数组, 滑动窗口 | :heavy_check_mark: | [Solution(Java)](./java/find-all-anagrams-in-a-string.java) |
 |2021/11/29| [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) | Hard | PriorityQueue | :heavy_check_mark: | [Solution(Java)](./java/k-th-smallest-prime-fraction.java) |
 |2021/11/30| [400. 第 N 位数字](https://leetcode-cn.com/problems/nth-digit/) | Medium | 位数换算, 数学推理 | :heavy_check_mark: | [Solution(Java)](./java/nth-digit.java) |
+|2021/12/01| [1446. 连续字符](https://leetcode-cn.com/problems/consecutive-characters/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/consecutive-characters.java) |
 
 # Leetcode Roadmap
 
@@ -67,6 +68,7 @@
 |[1218. 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)| Medium | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/longest-arithmetic-subsequence-of-given-difference.java) |
 |[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)| Easy | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximum-subarray.java) |
 |[918. 环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/)| Easy | 最小子序和, 最大子序和 | :heavy_check_mark: | [Solution(Java)](./java/maximum-sum-circular-subarray.java) |
+|[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)| Hard | BFS, 双向BFS | :heavy_check_mark: | [Solution(Java)](./java/word-ladder.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
