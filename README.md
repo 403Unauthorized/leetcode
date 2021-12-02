@@ -33,6 +33,7 @@
 |2021/11/29| [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) | Hard | PriorityQueue | :heavy_check_mark: | [Solution(Java)](./java/k-th-smallest-prime-fraction.java) |
 |2021/11/30| [400. 第 N 位数字](https://leetcode-cn.com/problems/nth-digit/) | Medium | 位数换算, 数学推理 | :heavy_check_mark: | [Solution(Java)](./java/nth-digit.java) |
 |2021/12/01| [1446. 连续字符](https://leetcode-cn.com/problems/consecutive-characters/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/consecutive-characters.java) |
+|2021/12/02| [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/relative-ranks.java) |
 
 # Leetcode Roadmap
 
