@@ -33,6 +33,7 @@
 |2021/11/29| [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/) | Hard | PriorityQueue | :heavy_check_mark: | [Solution(Java)](./java/k-th-smallest-prime-fraction.java) |
 |2021/11/30| [400. 第 N 位数字](https://leetcode-cn.com/problems/nth-digit/) | Medium | 位数换算, 数学推理 | :heavy_check_mark: | [Solution(Java)](./java/nth-digit.java) |
 |2021/12/01| [1446. 连续字符](https://leetcode-cn.com/problems/consecutive-characters/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/consecutive-characters.java) |
+|2021/12/14| [630. 课程表 III](https://leetcode-cn.com/problems/course-schedule-iii/) | Hard | 贪心算法, 优先级队列 | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-iii.java) |
 
 # Leetcode Roadmap
 
@@ -69,6 +70,8 @@
 |[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)| Easy | 动态规划 | :heavy_check_mark: | [Solution(Java)](./java/maximum-subarray.java) |
 |[918. 环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/)| Easy | 最小子序和, 最大子序和 | :heavy_check_mark: | [Solution(Java)](./java/maximum-sum-circular-subarray.java) |
 |[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)| Hard | BFS, 双向BFS | :heavy_check_mark: | [Solution(Java)](./java/word-ladder.java) |
+|[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)| Medium | 有向无环图(DAG) | :heavy_check_mark: | [Solution(Java)](./java/course-schedule.java), [Solution(Python)](/python/course-schedule.py) |
+|[210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)| Medium | 有向无环图(DAG) | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-ii.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
