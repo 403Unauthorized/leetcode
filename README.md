@@ -35,6 +35,7 @@
 |2021/12/01| [1446. 连续字符](https://leetcode-cn.com/problems/consecutive-characters/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/consecutive-characters.java) |
 |2021/12/02| [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/relative-ranks.java) |
 |2021/12/14| [630. 课程表 III](https://leetcode-cn.com/problems/course-schedule-iii/) | Hard | 贪心算法, 优先级队列 | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-iii.java) |
+|2021/12/17| [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/) | Easy | 乘除 | :heavy_check_mark: | [Solution(Java)](./java/water-bottles.java) |
 
 # Leetcode Roadmap
 
@@ -73,6 +74,7 @@
 |[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)| Hard | BFS, 双向BFS | :heavy_check_mark: | [Solution(Java)](./java/word-ladder.java) |
 |[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)| Medium | 有向无环图(DAG) | :heavy_check_mark: | [Solution(Java)](./java/course-schedule.java), [Solution(Python)](/python/course-schedule.py) |
 |[210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)| Medium | 有向无环图(DAG) | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-ii.java) |
+|[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| Medium | 字符串, 数组 | :heavy_check_mark: | [Solution(Java)](./java/string-to-integer-atoi.java), [Solution(Java) 2](./java/string-to-integer-atoi_2.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
