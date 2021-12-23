@@ -36,6 +36,7 @@
 |2021/12/02| [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/relative-ranks.java) |
 |2021/12/14| [630. 课程表 III](https://leetcode-cn.com/problems/course-schedule-iii/) | Hard | 贪心算法, 优先级队列 | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-iii.java) |
 |2021/12/17| [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/) | Easy | 乘除 | :heavy_check_mark: | [Solution(Java)](./java/water-bottles.java) |
+|2021/12/23| [1044. 最长重复子串](https://leetcode-cn.com/problems/longest-duplicate-substring/) | Hard | 字符串哈希 | :heavy_check_mark: | [Solution(Java)](./java/longest-duplicate-substring.java) |
 
 # Leetcode Roadmap
 
