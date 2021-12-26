@@ -37,6 +37,8 @@
 |2021/12/14| [630. 课程表 III](https://leetcode-cn.com/problems/course-schedule-iii/) | Hard | 贪心算法, 优先级队列 | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-iii.java) |
 |2021/12/17| [1518. 换酒问题](https://leetcode-cn.com/problems/water-bottles/) | Easy | 乘除 | :heavy_check_mark: | [Solution(Java)](./java/water-bottles.java) |
 |2021/12/23| [1044. 最长重复子串](https://leetcode-cn.com/problems/longest-duplicate-substring/) | Hard | 字符串哈希 | :heavy_check_mark: | [Solution(Java)](./java/longest-duplicate-substring.java) |
+|2021/12/25| [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/) | Medium | 二叉树层序遍历 | :heavy_check_mark: | [Solution(Java)](./java/even-odd-tree.java) |
+|2021/12/26| [1078. Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Java)](./java/occurrences-after-bigram.java) |
 
 # Leetcode Roadmap
 
