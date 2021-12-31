@@ -41,6 +41,7 @@
 |2021/12/26| [1078. Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Java)](./java/occurrences-after-bigram.java) |
 |2021/12/30| [846. 一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) | Medium | 模拟, 排序, 堆, 哈希计数 | :heavy_check_mark: | [Solution(Java)](./java/hand-of-straights.java) |
 |2021/12/31| [507. 完美数](https://leetcode-cn.com/problems/perfect-number/) | Easy | 模拟 | :heavy_check_mark: | [Solution(Java)](./java/perfect-number.java), [Solution(Go)](./go/perfect-number.go) |
+|2021/12/31| [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | 二叉树, 遍历, 左右子树最大差异 | :heavy_check_mark: | [Solution(Java)](./java/maximum-difference-between-node-and-ancestor.java) |
 
 # Leetcode Roadmap
 
@@ -81,6 +82,8 @@
 |[210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)| Medium | 有向无环图(DAG) | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-ii.java) |
 |[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| Medium | 字符串, 数组 | :heavy_check_mark: | [Solution(Java)](./java/string-to-integer-atoi.java), [Solution(Java) 2](./java/string-to-integer-atoi_2.java) |
 |[15. 三数之和](https://leetcode-cn.com/problems/3sum/)| Medium | 双指针, 排序 | :heavy_check_mark: | [Solution(Java)](./java/3sum.java), [Solution(Go)](./go/3sum.go) |
+|[109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Medium | BST, 中序遍历 | :heavy_check_mark: | [Solution(Java)](./java/convert-sorted-list-to-binary-search-tree.java) |
+
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
