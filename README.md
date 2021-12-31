@@ -39,6 +39,8 @@
 |2021/12/23| [1044. 最长重复子串](https://leetcode-cn.com/problems/longest-duplicate-substring/) | Hard | 字符串哈希 | :heavy_check_mark: | [Solution(Java)](./java/longest-duplicate-substring.java) |
 |2021/12/25| [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/) | Medium | 二叉树层序遍历 | :heavy_check_mark: | [Solution(Java)](./java/even-odd-tree.java) |
 |2021/12/26| [1078. Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Java)](./java/occurrences-after-bigram.java) |
+|2021/12/30| [846. 一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) | Medium | 模拟, 排序, 堆, 哈希计数 | :heavy_check_mark: | [Solution(Java)](./java/hand-of-straights.java) |
+|2021/12/31| [507. 完美数](https://leetcode-cn.com/problems/perfect-number/) | Easy | 模拟 | :heavy_check_mark: | [Solution(Java)](./java/perfect-number.java), [Solution(Go)](./go/perfect-number.go) |
 
 # Leetcode Roadmap
 
@@ -78,6 +80,7 @@
 |[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)| Medium | 有向无环图(DAG) | :heavy_check_mark: | [Solution(Java)](./java/course-schedule.java), [Solution(Python)](/python/course-schedule.py) |
 |[210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)| Medium | 有向无环图(DAG) | :heavy_check_mark: | [Solution(Java)](./java/course-schedule-ii.java) |
 |[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| Medium | 字符串, 数组 | :heavy_check_mark: | [Solution(Java)](./java/string-to-integer-atoi.java), [Solution(Java) 2](./java/string-to-integer-atoi_2.java) |
+|[15. 三数之和](https://leetcode-cn.com/problems/3sum/)| Medium | 双指针, 排序 | :heavy_check_mark: | [Solution(Java)](./java/3sum.java), [Solution(Go)](./go/3sum.go) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
