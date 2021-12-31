@@ -83,6 +83,8 @@
 |[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| Medium | 字符串, 数组 | :heavy_check_mark: | [Solution(Java)](./java/string-to-integer-atoi.java), [Solution(Java) 2](./java/string-to-integer-atoi_2.java) |
 |[15. 三数之和](https://leetcode-cn.com/problems/3sum/)| Medium | 双指针, 排序 | :heavy_check_mark: | [Solution(Java)](./java/3sum.java), [Solution(Go)](./go/3sum.go) |
 |[109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Medium | BST, 中序遍历 | :heavy_check_mark: | [Solution(Java)](./java/convert-sorted-list-to-binary-search-tree.java) |
+|[51. N 皇后](https://leetcode-cn.com/problems/n-queens/)| Hard | 回溯 | :heavy_check_mark: | [Solution(Java)](./java/n-queens.java) |
+|[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)| Hard | 回溯 | :heavy_check_mark: | [Solution(Java)](./java/n-queens-ii.java) |
 
 
 # 剑指 Offer II
