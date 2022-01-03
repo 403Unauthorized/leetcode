@@ -90,6 +90,7 @@
 |[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)| Hard | 回溯 | :heavy_check_mark: | [Solution(Java)](./java/n-queens-ii.java) |
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| Medium | BFS | :heavy_check_mark: | [Solution(Java)](./java/number-of-islands-en.java) |
 |[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| Medium | 链表 | :heavy_check_mark: | [Solution(Java)](./java/add-two-numbers-en.java) |
+|[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Medium | 字符串, 双指针 | :heavy_check_mark: | [Solution(Java)](./java/longest-substring-without-repeating-characters-en.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
