@@ -93,6 +93,7 @@
 |[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Medium | 字符串, 双指针 | :heavy_check_mark: | [Solution(Java)](./java/longest-substring-without-repeating-characters-en.java) |
 |[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| Medium | 回文串 | :heavy_check_mark: | [Solution(Java)](./java/longest-palindromic-substring-en.java) |
 |[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)| Medium | 数学 | :heavy_check_mark: | [Solution(Java)](./java/reverse-integer-en.java) |
+|[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| Medium | Binary Search | :heavy_check_mark: | [Solution(Java) O(n)](./java/find-first-and-last-position-of-element-in-sorted-array-en.java), [Solution(Java) O(log(n))](./java/find-first-and-last-position-of-element-in-sorted-array-en-2.java) |
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
