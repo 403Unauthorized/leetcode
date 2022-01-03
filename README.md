@@ -44,6 +44,8 @@
 |2021/12/31| [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | 二叉树, 遍历, 左右子树最大差异 | :heavy_check_mark: | [Solution(Java)](./java/maximum-difference-between-node-and-ancestor.java) |
 |2022/01/02| [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/) | Medium | 数学, 约瑟夫环 | :heavy_check_mark: | [Solution(Java)](./java/elimination-game.java) |
 |2022/01/02| [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | Medium | TwoSum.. | :heavy_check_mark: | [Solution(Java)](./java/pairs-of-songs-with-total-durations-divisible-by-60.java) |
+|2022/01/03| [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/) | Easy | 模拟年份 | :heavy_check_mark: | [Solution(Java)](./java/day-of-the-week.java) |
+|2022/01/03| [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/find-the-town-judge.java) |
 
 # Leetcode Roadmap
 
@@ -88,8 +90,6 @@
 |[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)| Hard | 回溯 | :heavy_check_mark: | [Solution(Java)](./java/n-queens-ii.java) |
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)| Medium | BFS | :heavy_check_mark: | [Solution(Java)](./java/number-of-islands-en.java) |
 |[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| Medium | 链表 | :heavy_check_mark: | [Solution(Java)](./java/add-two-numbers-en.java) |
-|[1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)| Easy | 模拟年份 | :heavy_check_mark: | [Solution(Java)](./java/day-of-the-week.java) |
-
 
 # 剑指 Offer II
 | Title | Difficulty | Category | Finished | Solution |
