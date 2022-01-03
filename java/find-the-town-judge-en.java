@@ -1,6 +1,6 @@
 package java;
 
-class FindTheTownJudge {
+class FindTheTownJudgeEn {
     public int findJudge(int n, int[][] trust) {
         int[] count = new int[n + 1];
         for (int[] t : trust) {
