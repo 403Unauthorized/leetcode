@@ -48,6 +48,7 @@
 |2022/01/03| [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/find-the-town-judge-en.java) |
 |2022/01/06| [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/) | Medium | 字符串模拟 | :heavy_check_mark: | [Solution(Java)](./java/simplify-path.java) |
 |2022/01/07| [1614. 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Java)](./java/maximum-nesting-depth-of-the-parentheses.java) |
+|2022/01/07| [382. Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | Medium | 随机访问, 水塘抽样, Reservoir Sampling | :heavy_check_mark: | [Solution(Java)](./java/linked-list-random-node-en.java) |
 
 # Leetcode Roadmap
 
