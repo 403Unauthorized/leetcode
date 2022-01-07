@@ -46,7 +46,8 @@
 |2022/01/02| [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | Medium | TwoSum.. | :heavy_check_mark: | [Solution(Java)](./java/pairs-of-songs-with-total-durations-divisible-by-60.java) |
 |2022/01/03| [1185. 一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/) | Easy | 模拟年份 | :heavy_check_mark: | [Solution(Java)](./java/day-of-the-week.java) |
 |2022/01/03| [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | 数组 | :heavy_check_mark: | [Solution(Java)](./java/find-the-town-judge-en.java) |
-|2022/01/06| [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/) | Medium | String | :heavy_check_mark: | [Solution(Java)](./java/simplify-path.java) |
+|2022/01/06| [71. 简化路径](https://leetcode-cn.com/problems/simplify-path/) | Medium | 字符串模拟 | :heavy_check_mark: | [Solution(Java)](./java/simplify-path.java) |
+|2022/01/07| [1614. 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | 字符串 | :heavy_check_mark: | [Solution(Java)](./java/maximum-nesting-depth-of-the-parentheses.java) |
 
 # Leetcode Roadmap
 
