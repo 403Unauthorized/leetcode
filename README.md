@@ -1,4 +1,6 @@
-# Dedicated to leetcode (Python)
+# Dedicated to leetcode
+
+> 从 2022 年开始，我将做题的进度全都会移到[我的个人网站](https://403unauthorized.github.io)上。
 
 > 当中的解法可能不是最优解，就当作是找做题的感觉。
 
